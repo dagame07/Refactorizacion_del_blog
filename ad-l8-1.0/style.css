@@ -3,3 +3,19 @@ html {
     width: 100%;
   }
 
+/* Paleta de colores personalizada */
+:root {
+  /* Mapeo de colores principales */
+  --bs-primary: #1d1f3a;       /* Mirage */
+  --bs-secondary: #4c4f7b;     /* East Bay */
+  --bs-info: #7c809c;          /* Waterloo */
+  --bs-warning: #d9b43a;       /* Anzac */
+  --bs-danger: #f47b7b;        /* Froly */
+
+  /* Variantes RGB para componentes que usan transparencias (Alertas, badges sutiles, etc.) */
+  --bs-primary-rgb: 29, 31, 58;
+  --bs-secondary-rgb: 76, 79, 123;
+  --bs-info-rgb: 124, 128, 156;
+  --bs-warning-rgb: 217, 180, 58;
+  --bs-danger-rgb: 244, 123, 123;
+}
