@@ -19,3 +19,31 @@ html {
   --bs-warning-rgb: 217, 180, 58;
   --bs-danger-rgb: 244, 123, 123;
 }
+
+body{
+  color: var(--bs-warning);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.imagen2{
+  width: auto;
+  height: 150px;
+  padding-left: 100px;
+}
+.imagen3{
+  width: auto;
+  height: 150px;
+  object-fit: cover;
+  object-position: 5px 10px;
+  border-radius: 30px 0 30px 0;
+}
+
+.imagenAD{
+  width: auto;
+  height: 300px;
+}
