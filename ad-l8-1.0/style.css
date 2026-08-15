@@ -30,6 +30,33 @@ body{
   
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.logoContainer h1{
+  margin: 0;
+}
+
+.contColumna {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding: 20px;
+}
+
+.columna {
+  flex: 1;
+}
+
+.imagen1{
+  width: auto;
+  height: 50px;
+}
+
 .imagen2{
   width: auto;
   height: 150px;
@@ -47,4 +74,12 @@ body{
   width: auto;
   height: 300px;
   margin-top: 25%;
+}
+
+.imagen4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  height: auto;
 }
